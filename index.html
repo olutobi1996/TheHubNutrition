@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sports performance meals for clubs and facilities | Prep &amp; Perform</title>
+<meta name="description" content="Macro-labelled performance meals prepped in Greater Manchester and delivered to your club, academy or sports facility. Halal, vegan, keto and clean ranges. Get a quote.">
+<meta name="theme-color" content="#0B3B2E">
+<meta property="og:title" content="Fuel the whole squad | Prep &amp; Perform sports performance">
+<meta property="og:description" content="Macro-labelled performance meals for clubs, academies and sports facilities.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+
+<!-- TODO: paste the client's Google Tag Manager snippet here (the main site uses GTM-T2MKDXM4, confirm with his marketing person). -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230B3B2E'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23FF6A2B'/%3E%3C/svg%3E">
+
+<style>
+/* ==========================================================================
+   BRAND TOKENS: swap these to the client's exact brand values.
+   Everything on the page reads from here.
+   ========================================================================== */
+:root{
+  --pitch:#0B3B2E;        /* main dark surface */
+  --pitch-deep:#072A20;   /* header, footer, deepest sections */
+  --pitch-mid:#14513F;    /* raised surfaces on dark */
+  --chalk:#F2F4EF;        /* light surface and text on dark */
+  --line:#D9E0D6;         /* hairlines on light */
+  --sage:#A9C2B3;         /* secondary text on dark, fat segment */
+  --cone:#FF6A2B;         /* the one accent */
+  --btn-ink:#062219;      /* text on the accent */
+  --ink:#0F1F1A;          /* text on light */
+  --ink-soft:#43554D;     /* secondary text on light */
+  --font-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --font-body:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+
+/* ---------- Base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:5.5rem;-webkit-text-size-adjust:100%}
+body{margin:0;font-family:var(--font-body);font-size:1.0625rem;line-height:1.6;color:var(--ink);background:var(--chalk);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+img,svg,video{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--font-display);margin:0;font-weight:800;line-height:.95;letter-spacing:-.005em}
+p{margin:0}
+:focus-visible{outline:3px solid var(--cone);outline-offset:3px;border-radius:4px}
+.skip{position:absolute;left:1rem;top:-5rem;z-index:100;background:var(--cone);color:var(--btn-ink);padding:.7rem 1.1rem;border-radius:.6rem;font-weight:700;text-decoration:none}
+.skip:focus{top:1rem}
+.wrap{width:min(1180px,100% - 2.5rem);margin-inline:auto}
+
+.section{padding-block:clamp(4.5rem,9vw,8rem)}
+.on-dark{background:var(--pitch);color:var(--chalk)}
+.on-deep{background:var(--pitch-deep);color:var(--chalk)}
+.on-white{background:#fff}
+.section-head{max-width:46rem;margin-bottom:clamp(2rem,4vw,3.5rem)}
+.section-head h2{font-size:clamp(2.7rem,6vw,4.7rem)}
+.section-head p{margin-top:1rem;font-size:1.15rem;color:var(--ink-soft);max-width:38rem}
+.on-dark .section-head p,.on-deep .section-head p{color:var(--sage)}
+
+/* ---------- Buttons ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:3.25rem;padding:.85rem 1.7rem;border-radius:999px;border:2px solid transparent;font:700 1rem/1 var(--font-body);text-decoration:none;cursor:pointer;transition:transform .2s ease,background-color .2s ease,border-color .2s ease,color .2s ease}
+.btn-primary{background:var(--cone);color:var(--btn-ink)}
+.btn-primary:hover{background:#FF824F;transform:translateY(-2px)}
+.btn-ghost{border-color:rgba(242,244,239,.45);color:var(--chalk)}
+.btn-ghost:hover{border-color:var(--chalk);background:rgba(242,244,239,.08)}
+.btn-outline{border-color:var(--pitch);color:var(--pitch)}
+.btn-outline:hover{background:var(--pitch);color:var(--chalk)}
+
+/* ---------- Header ---------- */
+.nav{position:sticky;top:0;z-index:50;background:rgba(7,42,32,.9);-webkit-backdrop-filter:saturate(1.4) blur(12px);backdrop-filter:saturate(1.4) blur(12px);color:var(--chalk);border-bottom:1px solid rgba(242,244,239,.12)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4.5rem}
+.brand{display:flex;align-items:center;gap:.75rem;text-decoration:none}
+.brand svg{width:2.3rem;height:2.3rem;flex:none}
+.brand-name{display:block;white-space:nowrap;font-family:var(--font-display);font-weight:800;font-size:1.6rem;line-height:1}
+.brand-sub{display:block;margin-top:.2rem;font-size:.8rem;font-weight:500;color:var(--sage);line-height:1}
+.nav-links{display:flex;align-items:center;gap:1.7rem;list-style:none;margin:0;padding:0}
+.nav-links a{text-decoration:none;font-weight:500;font-size:.98rem;opacity:.85;transition:opacity .2s}
+.nav-links a:hover{opacity:1}
+.nav-links .alt{color:var(--sage);opacity:1}
+.nav-actions{display:flex;align-items:center;gap:.6rem}
+.nav .btn{min-height:2.85rem;padding:.6rem 1.3rem;font-size:.95rem;white-space:nowrap}
+.nav-toggle{display:none;width:2.85rem;height:2.85rem;border-radius:50%;border:1.5px solid rgba(242,244,239,.35);background:none;color:inherit;cursor:pointer;align-items:center;justify-content:center;flex-direction:column;gap:.28rem;padding:0}
+.nav-toggle span{display:block;width:1.05rem;height:2px;background:currentColor;border-radius:2px}
+@media (max-width:1040px){
+  .nav-toggle{display:flex}
+  .nav-links{display:none;position:absolute;left:0;right:0;top:100%;flex-direction:column;align-items:flex-start;gap:0;background:var(--pitch-deep);padding:.75rem 1.25rem 1.25rem;border-bottom:1px solid rgba(242,244,239,.12)}
+  .nav-links.open{display:flex}
+  .nav-links li{width:100%}
+  .nav-links a{display:block;padding:.85rem 0;font-size:1.05rem;border-bottom:1px solid rgba(242,244,239,.1)}
+}
+@media (max-width:480px){.brand-sub{display:none}.brand{gap:.5rem;min-width:0}.brand svg{width:1.9rem;height:1.9rem}.brand-name{font-size:1.2rem}.nav .btn{padding:.5rem .8rem;font-size:.82rem;min-height:2.6rem}.nav-toggle{width:2.6rem;height:2.6rem}.nav-actions{gap:.4rem}.nav-in{gap:.4rem}}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:flex-end;min-height:88vh;min-height:min(88svh,880px);background:var(--pitch);color:var(--chalk)}
+.pitch{position:absolute;inset:0;z-index:-2;width:100%;height:100%}
+.pitch path{fill:none;stroke:var(--chalk);stroke-width:3;stroke-linecap:round;stroke-linejoin:round;opacity:.32}
+.pitch .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1.9s cubic-bezier(.65,0,.25,1) forwards;animation-delay:var(--d,0s)}
+.pitch .spot{fill:var(--cone);stroke:none;opacity:1;transform-box:fill-box;transform-origin:center;animation:pop .7s cubic-bezier(.2,.9,.3,1.4) 1.5s both}
+@keyframes draw{to{stroke-dashoffset:0}}
+@keyframes pop{from{transform:scale(0)}to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,var(--pitch) 0%,rgba(11,59,46,.82) 40%,rgba(11,59,46,0) 78%)}
+.hero-in{padding-block:clamp(5rem,12vw,9rem) clamp(2.5rem,5vw,4rem)}
+.hero h1{font-size:clamp(4rem,11.5vw,9.5rem);font-weight:900;line-height:.86}
+.hero-sub{max-width:34rem;margin:1.75rem 0 2rem;font-size:clamp(1.1rem,2vw,1.35rem);color:#DCE6DE}
+.hero-actions{display:flex;flex-wrap:wrap;gap:.9rem}
+.hero-alt{margin-top:1.4rem;font-size:.96rem;color:var(--sage)}
+.hero-alt a{color:var(--chalk);text-underline-offset:.2em}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);margin-top:clamp(2.5rem,6vw,4.5rem);border-top:1px solid rgba(242,244,239,.24)}
+.fact{padding:1.15rem 1.25rem 0 0}
+.fact+.fact{padding-left:1.5rem;border-left:1px solid rgba(242,244,239,.24)}
+.fact strong{display:block;font-family:var(--font-display);font-weight:800;font-size:clamp(1.6rem,3vw,2.1rem);line-height:1.05}
+.fact span{display:block;margin-top:.3rem;font-size:.95rem;color:var(--sage);max-width:16rem}
+@media (max-width:760px){
+  .facts{grid-template-columns:1fr}
+  .fact,.fact+.fact{padding:1rem 0 0;border-left:0}
+  .fact+.fact{margin-top:1rem;border-top:1px solid rgba(242,244,239,.24)}
+}
+
+/* ---------- Audience tabs ---------- */
+.tabs{display:grid;grid-template-columns:minmax(0,17rem) minmax(0,1fr);gap:clamp(1.5rem,4vw,4rem);align-items:start}
+.tablist{display:flex;flex-direction:column;gap:.35rem}
+.tab{appearance:none;text-align:left;background:none;border:0;border-left:4px solid var(--line);padding:1rem 1.2rem;font:700 1.08rem/1.3 var(--font-body);color:var(--ink-soft);cursor:pointer;transition:background-color .2s,color .2s,border-color .2s}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{border-left-color:var(--cone);color:var(--ink);background:#fff}
+.tabpanel{background:#fff;border:1px solid var(--line);border-radius:1.25rem;padding:clamp(1.6rem,3.5vw,2.75rem)}
+.tabpanel[hidden]{display:none}
+.tabpanel h3{font-size:clamp(2.2rem,4.2vw,3.2rem);margin-bottom:1rem}
+.tabpanel>p{max-width:36rem;color:var(--ink-soft);font-size:1.1rem}
+.ticks{list-style:none;margin:1.75rem 0 0;padding:0;display:grid;gap:.9rem}
+.ticks li{position:relative;padding-left:2rem}
+.ticks li::before{content:"";position:absolute;left:0;top:.42em;width:1rem;height:1rem;border-radius:50%;background:var(--cone);box-shadow:0 0 0 4px rgba(255,106,43,.18)}
+@media (max-width:860px){
+  .tabs{grid-template-columns:1fr}
+  .tablist{flex-direction:row;overflow-x:auto;gap:.5rem;padding-bottom:.4rem;scrollbar-width:none}
+  .tablist::-webkit-scrollbar{display:none}
+  .tab{border-left:0;border-bottom:4px solid var(--line);white-space:nowrap;padding:.85rem 1rem}
+  .tab[aria-selected="true"]{border-bottom-color:var(--cone)}
+}
+
+/* ---------- Calculator ---------- */
+.calc{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(2.5rem,6vw,6rem);align-items:center}
+.ctrl{margin-bottom:2.25rem}
+.ctrl-top{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:.9rem}
+.ctrl-top label,.ctrl-top legend{font-weight:600;font-size:1.05rem;padding:0}
+.ctrl-top output{font-family:var(--font-display);font-weight:800;font-size:2.4rem;line-height:1}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:.5rem;border-radius:999px;background:linear-gradient(to right,var(--cone) var(--fill,30%),rgba(242,244,239,.25) var(--fill,30%));cursor:pointer;margin:0}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:1.9rem;height:1.9rem;border-radius:50%;background:var(--chalk);border:5px solid var(--cone);box-shadow:0 2px 10px rgba(0,0,0,.35)}
+input[type=range]::-moz-range-thumb{width:1.5rem;height:1.5rem;border-radius:50%;background:var(--chalk);border:5px solid var(--cone)}
+.range-scale{display:flex;justify-content:space-between;margin-top:.6rem;font-size:.85rem;color:var(--sage)}
+.pills{display:flex;flex-wrap:wrap;gap:.6rem}
+.pill{position:relative}
+.pill input{position:absolute;opacity:0;inset:0;cursor:pointer;width:100%;height:100%;margin:0}
+.pill span{display:flex;align-items:center;justify-content:center;min-width:3.6rem;min-height:3.2rem;padding:0 1.1rem;border-radius:999px;border:2px solid rgba(242,244,239,.35);font-weight:700;transition:background-color .2s,border-color .2s,color .2s}
+.pill input:checked+span{background:var(--cone);border-color:var(--cone);color:var(--btn-ink)}
+.pill input:focus-visible+span{outline:3px solid var(--chalk);outline-offset:3px}
+.outputs{background:var(--pitch-mid);border-radius:1.5rem;padding:clamp(1.75rem,4vw,3rem)}
+.out-item+.out-item{margin-top:1.6rem;padding-top:1.6rem;border-top:1px solid rgba(242,244,239,.2)}
+.out-num{display:block;font-family:var(--font-display);font-weight:900;font-size:clamp(4.2rem,9vw,6.8rem);line-height:.9;font-variant-numeric:tabular-nums}
+.out-label{display:block;margin-top:.5rem;color:var(--sage)}
+.outputs .btn{margin-top:2rem;width:100%}
+.fine{margin-top:1rem;font-size:.85rem;color:var(--sage);line-height:1.5}
+@media (max-width:900px){.calc{grid-template-columns:1fr}}
+
+/* ---------- Team sheet ---------- */
+.legend{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin-bottom:1.25rem;font-size:.92rem;color:var(--ink-soft)}
+.legend span::before{content:"";display:inline-block;width:.8rem;height:.8rem;margin-right:.5rem;border-radius:50%;background:var(--sw);vertical-align:-.05em}
+.sheet{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1.3fr) 5.5rem;gap:1.5rem;align-items:center;padding:1.5rem 0;border-top:1px solid var(--line)}
+.row:last-child{border-bottom:1px solid var(--line)}
+.dish h3{font-size:1.8rem;margin-bottom:.35rem}
+.dish p{color:var(--ink-soft);font-size:.96rem}
+.bar{display:flex;gap:3px;height:.95rem;border-radius:999px;overflow:hidden}
+.bar i{display:block;min-width:4px}
+.bar .p{flex:var(--p);background:var(--cone)}
+.bar .c{flex:var(--c);background:var(--pitch)}
+.bar .f{flex:var(--f);background:var(--sage)}
+.nums{display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin-top:.7rem;font-size:.9rem;color:var(--ink-soft)}
+.nums b{color:var(--ink);font-weight:700}
+.kcal{text-align:right;font-family:var(--font-display);font-weight:800;font-size:2.3rem;line-height:1}
+.kcal small{display:block;margin-top:.15rem;font:500 .82rem var(--font-body);color:var(--ink-soft)}
+.sheet-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1.25rem;margin-top:2.25rem}
+.sheet-foot p{color:var(--ink-soft);max-width:34rem}
+@media (max-width:760px){
+  .row{grid-template-columns:1fr;gap:.9rem}
+  .kcal{text-align:left;display:flex;align-items:baseline;gap:.4rem}
+  .kcal small{margin:0}
+}
+
+/* ---------- Reel (hidden until a video source is set) ---------- */
+.reel{padding-block:0 clamp(4.5rem,9vw,8rem);background:#fff}
+.reel video{width:100%;aspect-ratio:16/9;border-radius:1.5rem;background:var(--pitch);object-fit:cover}
+
+/* ---------- Process ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem}
+.step{position:relative;padding-top:2rem;border-top:2px solid rgba(242,244,239,.22)}
+.step::before{content:"";position:absolute;top:-.6rem;left:0;width:1.1rem;height:1.1rem;border-radius:50%;background:var(--cone)}
+.step-n{display:block;font-family:var(--font-display);font-weight:900;font-size:4.2rem;line-height:.9;color:var(--sage);opacity:.5}
+.step h3{font-size:1.9rem;margin:.8rem 0 .6rem}
+.step p{color:var(--sage);font-size:1rem}
+@media (max-width:980px){.steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.steps{grid-template-columns:1fr}}
+
+/* ---------- FAQ ---------- */
+.faq{max-width:52rem}
+.faq details{border-top:1px solid var(--line)}
+.faq details:last-child{border-bottom:1px solid var(--line)}
+.faq summary{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:1.4rem 0;font-weight:600;font-size:1.15rem;cursor:pointer;list-style:none}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"";flex:none;width:1.1rem;height:1.1rem;background:linear-gradient(var(--ink),var(--ink)) center/100% 2px no-repeat,linear-gradient(var(--ink),var(--ink)) center/2px 100% no-repeat;transition:transform .25s ease}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{padding:0 3rem 1.5rem 0;color:var(--ink-soft);max-width:42rem}
+.faq details a{color:var(--ink);font-weight:600}
+
+/* ---------- Quote form ---------- */
+.quote{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(2.5rem,6vw,6rem);align-items:start}
+.quote h2{font-size:clamp(2.8rem,6.5vw,5rem)}
+.quote-copy>p{margin-top:1.25rem;font-size:1.15rem;color:var(--sage);max-width:26rem}
+.contact{list-style:none;margin:2.25rem 0 0;padding:0;display:grid;gap:1.1rem;font-size:1rem}
+.contact small{display:block;color:var(--sage);font-size:.85rem}
+.contact a{font-weight:600;text-underline-offset:.2em}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.15rem}
+.field{display:grid;gap:.4rem;align-content:start}
+.full{grid-column:1/-1}
+.field label{font-weight:600;font-size:.95rem}
+.field label span{font-weight:400;color:var(--sage)}
+.field input,.field select,.field textarea{width:100%;min-height:3.1rem;padding:.85rem 1rem;font:inherit;color:var(--chalk);background:rgba(242,244,239,.07);border:1.5px solid rgba(242,244,239,.3);border-radius:.8rem;transition:border-color .2s,box-shadow .2s}
+.field textarea{min-height:8rem;resize:vertical}
+.field select{appearance:none;-webkit-appearance:none;padding-right:2.6rem;background-image:linear-gradient(45deg,transparent 50%,var(--chalk) 50%),linear-gradient(135deg,var(--chalk) 50%,transparent 50%);background-position:calc(100% - 1.3rem) 55%,calc(100% - .95rem) 55%;background-size:.4rem .4rem;background-repeat:no-repeat}
+.field select option{color:var(--ink);background:#fff}
+.field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--cone);box-shadow:0 0 0 3px rgba(255,106,43,.35)}
+.field [aria-invalid="true"]{border-color:#FFB493}
+.err{min-height:1.1em;font-size:.88rem;color:#FFB493}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.form-foot{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.5rem;margin-top:.5rem}
+.status{font-size:.98rem;color:var(--chalk);max-width:30rem}
+.status:empty{display:none}
+@media (max-width:900px){.quote{grid-template-columns:1fr}.quote-copy>p{max-width:34rem}}
+@media (max-width:560px){.form-grid{grid-template-columns:1fr}}
+
+/* ---------- Footer ---------- */
+.foot{padding-block:clamp(3rem,6vw,4.5rem) 2rem;font-size:.96rem}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:2.5rem}
+.foot h2{font-family:var(--font-body);font-weight:700;font-size:1rem;line-height:1.3;margin-bottom:.9rem;letter-spacing:0}
+.foot ul{list-style:none;margin:0;padding:0;display:grid;gap:.55rem}
+.foot a{color:var(--sage);text-decoration:none}
+.foot a:hover{color:var(--chalk);text-decoration:underline}
+.foot address{font-style:normal;color:var(--sage);margin-top:1rem;max-width:18rem}
+.foot-base{margin-top:3rem;padding-top:1.5rem;border-top:1px solid rgba(242,244,239,.15);display:flex;flex-wrap:wrap;justify-content:space-between;gap:.75rem 2rem;color:var(--sage);font-size:.88rem}
+@media (max-width:760px){.foot-grid{grid-template-columns:1fr}}
+
+/* ---------- Reduced motion ---------- */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .pitch .draw{animation:none;stroke-dashoffset:0}
+  .pitch .spot{animation:none}
+  .btn,.tab,.pill span{transition:none}
+  .btn-primary:hover{transform:none}
+}
+</style>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<!-- ============================== HEADER ============================== -->
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#top" aria-label="Prep &amp; Perform sports performance, back to top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="none" stroke="#F2F4EF" stroke-width="2.5"/><path d="M20 3v34" stroke="#F2F4EF" stroke-width="2.5"/><circle cx="20" cy="20" r="4.5" fill="#FF6A2B"/></svg>
+      <span><span class="brand-name">Prep &amp; Perform</span><span class="brand-sub">Sports performance</span></span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#who">Who it's for</a></li>
+      <li><a href="#calculator">Your week</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a class="alt" href="https://thehubnutrition.co.uk/plans/" data-track="nav_personal_plans">Personal meal prep</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a class="btn btn-primary" href="#quote" data-track="nav_quote">Get a club quote</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================== HERO ============================== -->
+<section class="hero" id="top">
+  <!-- Attacking third of a pitch, drawn on load. The penalty spot is the one splash of accent. -->
+  <svg class="pitch" viewBox="0 0 1200 700" preserveAspectRatio="xMaxYMid slice" aria-hidden="true" focusable="false">
+    <path class="draw" pathLength="1" style="--d:0s"   d="M300 40 H1160 V660 H300"/>
+    <path class="draw" pathLength="1" style="--d:.15s" d="M300 40 V660"/>
+    <path class="draw" pathLength="1" style="--d:.3s"  d="M300 220 A130 130 0 0 1 300 480"/>
+    <path class="draw" pathLength="1" style="--d:.5s"  d="M1160 190 H820 V510 H1160"/>
+    <path class="draw" pathLength="1" style="--d:.75s" d="M1160 280 H1010 V420 H1160"/>
+    <path class="draw" pathLength="1" style="--d:1s"   d="M820 280.7 A130 130 0 0 0 820 419.3"/>
+    <path class="draw" pathLength="1" style="--d:1.2s" d="M1160 315 H1188 V385 H1160"/>
+    <circle class="spot" cx="930" cy="350" r="9"/>
+  </svg>
+
+  <div class="wrap hero-in">
+    <h1>Fuel the<br>whole squad.</h1>
+    <p class="hero-sub">Macro-labelled performance meals, prepped in Greater Manchester and delivered to your club, academy or facility. One order, every player fed.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#quote" data-track="hero_quote">Get a club quote</a>
+      <a class="btn btn-ghost" href="#calculator" data-track="hero_calculator">Size up your week</a>
+    </div>
+    <p class="hero-alt">Looking for meals for yourself? <a href="https://thehubnutrition.co.uk/plans/" data-track="hero_personal_plans">See personal meal prep plans</a>.</p>
+
+    <div class="facts">
+      <div class="fact"><strong>40g+ protein</strong><span>on most meals across the menu</span></div>
+      <div class="fact"><strong>Halal, vegan, keto, clean</strong><span>ranges for every player in the squad</span></div>
+      <div class="fact"><strong>Prepped in Irlam</strong><span>from our Greater Manchester HQ</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== WHO IT'S FOR ============================== -->
+<section class="section" id="who">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Built for the places athletes actually train.</h2>
+      <p>Pick the setup closest to yours. We'll shape the order around it.</p>
+    </div>
+
+    <div class="tabs">
+      <div class="tablist" role="tablist" aria-label="Who we cater for">
+        <button class="tab" role="tab" id="tab-clubs" aria-controls="panel-clubs" aria-selected="true">Clubs and teams</button>
+        <button class="tab" role="tab" id="tab-academies" aria-controls="panel-academies" aria-selected="false" tabindex="-1">Academies and schools</button>
+        <button class="tab" role="tab" id="tab-facilities" aria-controls="panel-facilities" aria-selected="false" tabindex="-1">Gyms and facilities</button>
+        <button class="tab" role="tab" id="tab-events" aria-controls="panel-events" aria-selected="false" tabindex="-1">Camps and tournaments</button>
+      </div>
+
+      <div>
+        <div class="tabpanel" role="tabpanel" id="panel-clubs" aria-labelledby="tab-clubs">
+          <h3>Training-week and match-day meals</h3>
+          <p>For first teams, youth sides and women's squads who need players properly fed around sessions and fixtures.</p>
+          <ul class="ticks">
+            <li>Recovery meals ready for after training</li>
+            <li>Match-day and away-day orders</li>
+            <li>Halal, vegan and keto options for every player</li>
+          </ul>
+        </div>
+        <div class="tabpanel" role="tabpanel" id="panel-academies" aria-labelledby="tab-academies" hidden>
+          <h3>Consistent fuel between lessons and sessions</h3>
+          <p>For players balancing training with school or college, where a good meal often gets skipped.</p>
+          <ul class="ticks">
+            <li>A rotating menu that doesn't go stale</li>
+            <li>Macros on every meal, so coaches and parents can see what's in it</li>
+            <li>Order once for the whole group</li>
+          </ul>
+        </div>
+        <div class="tabpanel" role="tabpanel" id="panel-facilities" aria-labelledby="tab-facilities" hidden>
+          <h3>A meal offer without running a kitchen</h3>
+          <p>For gyms and performance centres that want to feed members or on-site athletes properly.</p>
+          <ul class="ticks">
+            <li>Stocked for your members or resident athletes</li>
+            <li>A menu picked around your training focus</li>
+            <li>Regular deliveries on a schedule that suits you</li>
+          </ul>
+        </div>
+        <div class="tabpanel" role="tabpanel" id="panel-events" aria-labelledby="tab-events" hidden>
+          <h3>Feed a full weekend of fixtures</h3>
+          <p>For tournaments, training camps and events where a lot of people need feeding to a tight schedule.</p>
+          <ul class="ticks">
+            <li>Bulk orders for one-off events</li>
+            <li>Meals planned around kick-offs and session times</li>
+            <li>Menus agreed with organisers in advance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== CALCULATOR ============================== -->
+<section class="section on-dark" id="calculator">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Size up your squad's week.</h2>
+      <p>Slide to your numbers and see what a week of proper fuelling looks like before you ask for a quote.</p>
+    </div>
+
+    <div class="calc">
+      <div>
+        <div class="ctrl">
+          <div class="ctrl-top">
+            <label for="squadSize">Players and staff</label>
+            <output id="squadOut" for="squadSize">22</output>
+          </div>
+          <input type="range" id="squadSize" min="8" max="60" step="1" value="22">
+          <div class="range-scale" aria-hidden="true"><span>8</span><span>60</span></div>
+        </div>
+
+        <fieldset class="ctrl">
+          <div class="ctrl-top"><legend>Meals per person, each week</legend></div>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="meals" value="2"><span>2</span></label>
+            <label class="pill"><input type="radio" name="meals" value="3" checked><span>3</span></label>
+            <label class="pill"><input type="radio" name="meals" value="5"><span>5</span></label>
+            <label class="pill"><input type="radio" name="meals" value="7"><span>7</span></label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="outputs" aria-live="polite">
+        <div class="out-item">
+          <span class="out-num" id="outMeals">66</span>
+          <span class="out-label">meals a week for the squad</span>
+        </div>
+        <div class="out-item">
+          <span class="out-num" id="outProtein">129g</span>
+          <span class="out-label">protein per person, each week</span>
+        </div>
+        <a class="btn btn-primary" href="#quote" id="calcQuote" data-track="calculator_quote">Get a quote for this week</a>
+        <p class="fine">Estimates use the current menu average of about 43g protein per meal. A guide to volume, not a nutrition plan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== TEAM SHEET (MENU) ============================== -->
+<section class="section on-white" id="menu">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>The team sheet.</h2>
+      <p>Five from the current menu. Every dish is macro-labelled, and the range rotates.</p>
+    </div>
+
+    <div class="legend" aria-hidden="true">
+      <span style="--sw:var(--cone)">Protein</span>
+      <span style="--sw:var(--pitch)">Carbs</span>
+      <span style="--sw:var(--sage)">Fat</span>
+    </div>
+
+    <ul class="sheet">
+      <li class="row">
+        <div class="dish"><h3>Chicken katsu curry</h3><p>Fluffy coconut rice, fried kale, edamame beans, spring onions</p></div>
+        <div>
+          <div class="bar" role="img" aria-label="45g protein, 55g carbs, 14g fat" style="--p:45;--c:55;--f:14"><i class="p"></i><i class="c"></i><i class="f"></i></div>
+          <p class="nums"><span><b>45g</b> protein</span><span><b>55g</b> carbs</span><span><b>14g</b> fat</span></p>
+        </div>
+        <div class="kcal">541<small>kcal</small></div>
+      </li>
+      <li class="row">
+        <div class="dish"><h3>Honey and chilli chicken thighs</h3><p>Wholegrain spicy rice, peppers, green beans</p></div>
+        <div>
+          <div class="bar" role="img" aria-label="43g protein, 50g carbs, 8g fat" style="--p:43;--c:50;--f:8"><i class="p"></i><i class="c"></i><i class="f"></i></div>
+          <p class="nums"><span><b>43g</b> protein</span><span><b>50g</b> carbs</span><span><b>8g</b> fat</span></p>
+        </div>
+        <div class="kcal">449<small>kcal</small></div>
+      </li>
+      <li class="row">
+        <div class="dish"><h3>Brazilian coconut chicken curry</h3><p>Paprika rice, almonds, coconut flakes, coriander</p></div>
+        <div>
+          <div class="bar" role="img" aria-label="43g protein, 51g carbs, 9g fat" style="--p:43;--c:51;--f:9"><i class="p"></i><i class="c"></i><i class="f"></i></div>
+          <p class="nums"><span><b>43g</b> protein</span><span><b>51g</b> carbs</span><span><b>9g</b> fat</span></p>
+        </div>
+        <div class="kcal">471<small>kcal</small></div>
+      </li>
+      <li class="row">
+        <div class="dish"><h3>Rump steak, peppercorn sauce</h3><p>Peppered creamy mash, courgettes, mushrooms, chilli broccoli</p></div>
+        <div>
+          <div class="bar" role="img" aria-label="41g protein, 48g carbs, 19g fat" style="--p:41;--c:48;--f:19"><i class="p"></i><i class="c"></i><i class="f"></i></div>
+          <p class="nums"><span><b>41g</b> protein</span><span><b>48g</b> carbs</span><span><b>19g</b> fat</span></p>
+        </div>
+        <div class="kcal">518<small>kcal</small></div>
+      </li>
+      <li class="row">
+        <div class="dish"><h3>Thai king prawns</h3><p>Saucy egg noodles, edamame, mangetout, baby corn</p></div>
+        <div>
+          <div class="bar" role="img" aria-label="32g protein, 57g carbs, 4.8g fat" style="--p:32;--c:57;--f:4.8"><i class="p"></i><i class="c"></i><i class="f"></i></div>
+          <p class="nums"><span><b>32g</b> protein</span><span><b>57g</b> carbs</span><span><b>4.8g</b> fat</span></p>
+        </div>
+        <div class="kcal">416<small>kcal</small></div>
+      </li>
+    </ul>
+
+    <div class="sheet-foot">
+      <p>The full range also covers halal, vegan, keto and clean options, so a mixed squad can be fed from one order.</p>
+      <a class="btn btn-outline" href="https://thehubnutrition.co.uk/menu/" data-track="menu_full">See the full menu</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== REEL (appears once a video URL is set) ============================== -->
+<!-- To use: put the videographer's file path in data-src (and a poster image), and the section will show itself. -->
+<section class="reel" data-reel hidden aria-label="Prep and delivery video">
+  <div class="wrap">
+    <video controls preload="none" playsinline data-src="" poster=""></video>
+  </div>
+</section>
+
+<!-- ============================== PROCESS ============================== -->
+<section class="section on-deep" id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>From first message to first delivery.</h2>
+      <p>Four steps, and most of them are ours.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><span class="step-n">1</span><h3>Tell us about your squad</h3><p>Group size, training days, dietary needs and where we're delivering.</p></div>
+      <div class="step"><span class="step-n">2</span><h3>We build your menu</h3><p>A rotating line-up from our performance range, matched to your calendar.</p></div>
+      <div class="step"><span class="step-n">3</span><h3>We prep and deliver</h3><p>Prepped at our Irlam HQ and delivered to your ground or facility.</p></div>
+      <div class="step"><span class="step-n">4</span><h3>Adjust as the season moves</h3><p>Change volumes for match weeks, camps and rest weeks.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== FAQ ============================== -->
+<section class="section" id="faq">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Questions clubs ask first.</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>What does it cost?</summary>
+        <p>Pricing depends on numbers, how often you order and which menu you choose. Send us the details and we'll put a quote together.</p>
+      </details>
+      <details>
+        <summary>Can you cover different dietary needs in one order?</summary>
+        <p>Yes. Our range includes halal, vegan, keto and clean options, so a mixed squad can be catered for together. Tell us about any allergies when you enquire.</p>
+      </details>
+      <details>
+        <summary>Where do you deliver?</summary>
+        <p>We prep in Irlam, Greater Manchester. Give us your postcode when you enquire and we'll confirm delivery.</p>
+      </details>
+      <details>
+        <summary>Can we order for a one-off event?</summary>
+        <p>Yes. Tournaments, camps and events are welcome. Tell us the dates and numbers and we'll come back with options.</p>
+      </details>
+      <details>
+        <summary>Is this different from your personal meal prep plans?</summary>
+        <p>Yes. This page is for clubs, academies and facilities ordering for a group. If you want meals for yourself, take a look at our <a href="https://thehubnutrition.co.uk/plans/" data-track="faq_personal_plans">personal meal prep plans</a>.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== QUOTE FORM ============================== -->
+<section class="section on-dark" id="quote">
+  <div class="wrap quote">
+    <div class="quote-copy">
+      <h2>Tell us about your squad.</h2>
+      <p>A few details is all we need to put a quote together.</p>
+      <ul class="contact">
+        <li><small>Email</small><a href="mailto:hello@thehubnutrition.co.uk">hello@thehubnutrition.co.uk</a></li>
+        <li><small>Prep &amp; Perform HQ</small>Unit 2 &amp; 3, Mayfield Industrial Park,<br>Irlam, M44 6GD</li>
+      </ul>
+    </div>
+
+    <form id="quoteForm" novalidate>
+      <div class="form-grid">
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required><span class="err" aria-live="polite"></span></div>
+        <div class="field"><label for="org">Club or organisation</label><input id="org" name="org" type="text" autocomplete="organization" required><span class="err" aria-live="polite"></span></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><span class="err" aria-live="polite"></span></div>
+        <div class="field"><label for="phone">Phone <span>(optional)</span></label><input id="phone" name="phone" type="tel" autocomplete="tel"><span class="err"></span></div>
+        <div class="field">
+          <label for="type">You are a</label>
+          <select id="type" name="type" required>
+            <option value="" selected disabled>Choose one</option>
+            <option>Club or team</option>
+            <option>Academy or school</option>
+            <option>Gym or sports facility</option>
+            <option>Camp, tournament or event</option>
+            <option>Something else</option>
+          </select>
+          <span class="err" aria-live="polite"></span>
+        </div>
+        <div class="field"><label for="people">People to feed <span>(roughly)</span></label><input id="people" name="people" type="number" inputmode="numeric" min="1"><span class="err"></span></div>
+        <div class="field full"><label for="message">Anything we should know? <span>(dietary needs, dates, postcode)</span></label><textarea id="message" name="message"></textarea></div>
+        <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+      </div>
+      <div class="form-foot">
+        <button class="btn btn-primary" type="submit">Send my details</button>
+        <p class="status" id="formStatus" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================== FOOTER ============================== -->
+<footer class="on-deep foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top" aria-label="Back to top">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="17" fill="none" stroke="#F2F4EF" stroke-width="2.5"/><path d="M20 3v34" stroke="#F2F4EF" stroke-width="2.5"/><circle cx="20" cy="20" r="4.5" fill="#FF6A2B"/></svg>
+          <span><span class="brand-name">Prep &amp; Perform</span><span class="brand-sub">Sports performance</span></span>
+        </a>
+        <address>Prep &amp; Perform HQ<br>Unit 2 &amp; 3, Mayfield Industrial Park<br>Irlam, M44 6GD</address>
+      </div>
+      <div>
+        <h2>Explore</h2>
+        <ul>
+          <li><a href="https://thehubnutrition.co.uk/menu/">Full menu</a></li>
+          <li><a href="https://thehubnutrition.co.uk/plans/">Personal meal prep plans</a></li>
+          <li><a href="https://thehubnutrition.co.uk/about/">About us</a></li>
+          <li><a href="https://thehubnutrition.co.uk/faqs/">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Get in touch</h2>
+        <ul>
+          <li><a href="mailto:hello@thehubnutrition.co.uk">hello@thehubnutrition.co.uk</a></li>
+          <li><a href="https://www.instagram.com/thehubperformancemealprep/" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/thehubnutrition" rel="noopener">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base">
+      <span>&copy; <span id="year">2026</span> Prep &amp; Perform. All rights reserved.</span>
+      <!-- TODO: confirm the live privacy policy URL with the client (the one found on his site sits under /staging/). -->
+      <a href="https://thehubnutrition.co.uk/staging/privacy-policy/">Privacy policy</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(() => {
+  /* ==================== CONFIG ====================
+     formEndpoint: paste a Formspree (or similar) endpoint to send enquiries directly.
+     While empty, the form falls back to opening the visitor's email app. */
+  const CONFIG = {
+    formEndpoint: '',
+    email: 'hello@thehubnutrition.co.uk'
+  };
+
+  const $ = (s, r = document) => r.querySelector(s);
+  const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* Simple GTM-friendly tracking. Harmless if GTM isn't installed. */
+  window.dataLayer = window.dataLayer || [];
+  const track = (event, data = {}) => window.dataLayer.push({ event, ...data });
+  document.addEventListener('click', e => {
+    const el = e.target.closest('[data-track]');
+    if (el) track('cta_click', { cta: el.dataset.track });
+  });
+
+  $('#year').textContent = new Date().getFullYear();
+
+  /* ---------- Mobile nav ---------- */
+  const toggle = $('.nav-toggle'), links = $('#navLinks');
+  toggle.addEventListener('click', () => {
+    const open = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  links.addEventListener('click', e => {
+    if (e.target.closest('a')) { links.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
+  });
+
+  /* ---------- Audience tabs ---------- */
+  const tabs = $$('[role="tab"]');
+  const select = tab => {
+    tabs.forEach(t => {
+      const on = t === tab;
+      t.setAttribute('aria-selected', String(on));
+      t.tabIndex = on ? 0 : -1;
+      document.getElementById(t.getAttribute('aria-controls')).hidden = !on;
+    });
+    track('audience_tab', { tab: tab.id });
+  };
+  tabs.forEach((t, i) => {
+    t.addEventListener('click', () => select(t));
+    t.addEventListener('keydown', e => {
+      let next = null;
+      if (e.key === 'ArrowRight' || e.key === 'ArrowDown') next = tabs[(i + 1) % tabs.length];
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') next = tabs[(i - 1 + tabs.length) % tabs.length];
+      if (e.key === 'Home') next = tabs[0];
+      if (e.key === 'End') next = tabs[tabs.length - 1];
+      if (next) { e.preventDefault(); next.focus(); select(next); }
+    });
+  });
+
+  /* ---------- Calculator ---------- */
+  const squad = $('#squadSize'), squadOut = $('#squadOut');
+  const outMeals = $('#outMeals'), outProtein = $('#outProtein');
+  const PROTEIN_PER_MEAL = 43;
+  let calcTimer;
+
+  const tween = (el, to, suffix = '') => {
+    const from = Number(el.dataset.v ?? to);
+    el.dataset.v = to;
+    cancelAnimationFrame(el._raf);
+    if (reduce || from === to) { el.textContent = to + suffix; return; }
+    const t0 = performance.now(), dur = 450;
+    const step = now => {
+      const k = Math.min((now - t0) / dur, 1), e = 1 - Math.pow(1 - k, 3);
+      el.textContent = Math.round(from + (to - from) * e) + suffix;
+      if (k < 1) el._raf = requestAnimationFrame(step);
+    };
+    el._raf = requestAnimationFrame(step);
+  };
+
+  const currentMeals = () => Number($('input[name="meals"]:checked').value);
+  const updateCalc = () => {
+    const n = Number(squad.value), m = currentMeals();
+    squadOut.textContent = n;
+    squad.style.setProperty('--fill', ((n - squad.min) / (squad.max - squad.min) * 100) + '%');
+    tween(outMeals, n * m);
+    tween(outProtein, m * PROTEIN_PER_MEAL, 'g');
+    clearTimeout(calcTimer);
+    calcTimer = setTimeout(() => track('calculator_use', { people: n, meals_each: m }), 800);
+  };
+  squad.addEventListener('input', updateCalc);
+  $$('input[name="meals"]').forEach(r => r.addEventListener('change', updateCalc));
+  outMeals.dataset.v = outMeals.textContent;
+  outProtein.dataset.v = parseInt(outProtein.textContent, 10);
+  updateCalc();
+
+  /* Send the calculator numbers into the quote form */
+  const form = $('#quoteForm'), status = $('#formStatus');
+  $('#calcQuote').addEventListener('click', () => {
+    const n = Number(squad.value), m = currentMeals();
+    form.elements.people.value = n;
+    form.elements.message.value =
+      `We'd like a quote for around ${n} people at ${m} meals each per week (${n * m} meals a week).`;
+    setTimeout(() => form.elements.name.focus({ preventScroll: true }), reduce ? 0 : 700);
+  });
+
+  /* ---------- Quote form ---------- */
+  const validate = () => {
+    let firstBad = null;
+    $$('[required]', form).forEach(f => {
+      const err = f.closest('.field').querySelector('.err');
+      let msg = '';
+      if (!f.value.trim()) msg = 'Please fill this in.';
+      else if (f.type === 'email' && !/^\S+@\S+\.\S+$/.test(f.value.trim())) msg = 'Enter a valid email address.';
+      err.textContent = msg;
+      f.setAttribute('aria-invalid', String(!!msg));
+      if (msg && !firstBad) firstBad = f;
+    });
+    return firstBad;
+  };
+  $$('input,select,textarea', form).forEach(f => f.addEventListener('input', () => {
+    if (f.getAttribute('aria-invalid') === 'true') { f.setAttribute('aria-invalid', 'false'); f.closest('.field').querySelector('.err').textContent = ''; }
+  }));
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    if (form.elements.website.value) return; // honeypot
+    const bad = validate();
+    if (bad) { bad.focus(); status.textContent = 'Check the highlighted fields and try again.'; return; }
+
+    const data = Object.fromEntries(new FormData(form));
+    delete data.website;
+    const submitBtn = $('button[type="submit"]', form);
+    status.textContent = '';
+
+    if (CONFIG.formEndpoint) {
+      submitBtn.disabled = true; submitBtn.textContent = 'Sending…';
+      try {
+        const res = await fetch(CONFIG.formEndpoint, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+          body: JSON.stringify(data)
+        });
+        if (!res.ok) throw new Error('Bad response');
+        track('quote_submit', { type: data.type });
+        form.reset();
+        status.textContent = `Thanks ${data.name.split(' ')[0]}. We've got your details and will be in touch with a quote.`;
+      } catch (err) {
+        status.textContent = `That didn't send. Email us at ${CONFIG.email} and we'll pick it up from there.`;
+      } finally {
+        submitBtn.disabled = false; submitBtn.textContent = 'Send my details';
+      }
+    } else {
+      const body = [
+        `Name: ${data.name}`, `Club or organisation: ${data.org}`, `Email: ${data.email}`,
+        data.phone && `Phone: ${data.phone}`, `Type: ${data.type}`,
+        data.people && `People to feed: ${data.people}`, '', data.message
+      ].filter(v => v !== undefined && v !== false && v !== null).join('\n');
+      track('quote_submit', { type: data.type, method: 'mailto' });
+      window.location.href = `mailto:${CONFIG.email}?subject=${encodeURIComponent('Club quote enquiry: ' + data.org)}&body=${encodeURIComponent(body)}`;
+      status.textContent = `Your email app should open with the details filled in. If it doesn't, email us at ${CONFIG.email}.`;
+    }
+  });
+
+  /* ---------- Reel: shows itself once a video source is set ---------- */
+  const reel = $('[data-reel]');
+  const video = reel && $('video', reel);
+  if (video && video.dataset.src) { video.src = video.dataset.src; reel.hidden = false; }
+})();
+</script>
+</body>
+</html>
